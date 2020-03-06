@@ -1,0 +1,41 @@
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/aboutUs"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+            android:id="@+id/joeyImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/dev"
+            android:layout_centerHorizontal="true"
+            android:padding="25dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/devInfo"
+            android:layout_below="@+id/joeyImage"
+            android:layout_marginTop="20dp"
+            android:width="220dp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:maxLines="3"
+            android:text="This app is made by Mohit Bhatt as part of Internshala Online Android Training Project."
+            android:layout_centerHorizontal="true"
+            android:textColor="#212121"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/devInfo"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:text="App Version : 1.0"
+            android:id="@+id/appInfo"
+            android:layout_centerHorizontal="true"
+            android:textColor="#212121"/>
+
+</RelativeLayout>
